@@ -31,8 +31,8 @@ Integrantes
 
 ### Contribuições
 
-- Andre Luiz – Desenvolveu as telas: inicial, cadastro de bebidas, persistência de dados com ROOM e banco de dados;
-- Conrado Rezende – Desenvolveu as telas de relatório de estoque e sistema de top vendas;
+- Andre Luiz – Desenvolveu as telas: inicial, cadastro de bebidas, persistência de dados com ROOM, banco de dados e documentação;
+- Conrado Rezende – Desenvolveu as telas de relatório de estoque, sistema de top vendas e documentação;
 - Diogo Henrique – Desenvolvimento da tela de movimentações e da documentação / diagramas;
 - Tiago Reginato – Desenvolvimento da tela de listagem de bebidas, edição de bebidas e documentação;
 
