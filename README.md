@@ -23,7 +23,7 @@ O projeto foi desenvolvido para atender aos requisitos da disciplina, incluindo:
 
 ---
 
-Integrantes
+## Integrantes
 
 - Andre Luiz Ferreira - 40305937
 - Conrado Rezende - 40421074
