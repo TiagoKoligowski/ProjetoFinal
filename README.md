@@ -25,17 +25,17 @@ O projeto foi desenvolvido para atender aos requisitos da disciplina, incluindo:
 
 Integrantes
 
-- Andre Luiz Ferreira - RGM
-- Conrado Rezende - RGM
-- Diogo Henrique da Silva - RGM
-- Tiago Reginato Koligowski - RGM
+- Andre Luiz Ferreira - 40305937
+- Conrado Rezende - 40421074
+- Diogo Henrique da Silva - 40720438
+- Tiago Reginato Koligowski - 40316106
 
 ### Contribuições
 
 - Andre Luiz – Desenvolveu as telas: inicial, cadastro de bebidas, persistência de dados com ROOM, banco de dados e documentação;
 - Conrado Rezende – Desenvolveu as telas de relatório de estoque, sistema de top vendas e documentação;
 - Diogo Henrique – Desenvolvimento da tela de movimentações e da documentação / diagramas;
-- Tiago Reginato – Desenvolvimento da tela de listagem de bebidas, edição de bebidas e documentação;
+- Tiago Reginato – Desenvolvimento da tela de listagem de bebidas, sistema edição e exclusão de bebidas, auxilio na tela de movimentações e documentação;
 
 ---
 
@@ -145,6 +145,15 @@ O projeto segue o padrão **MVVM**, separando claramente:
 
 ---
 
+## Diagrama do Banco de Dados (ERD)
+
+A estrutura do banco de dados do aplicativo utiliza três entidades principais, com relacionamentos 1:N.  
+O diagrama abaixo representa visualmente a modelagem:
+
+<img width="1007" height="144" alt="image" src="https://github.com/user-attachments/assets/4d0b3345-638c-453b-9212-422c61ddca44" />
+
+---
+
 ## Principais Funcionalidades
 
 **Gerenciamento de Bebidas**
@@ -223,6 +232,14 @@ O projeto segue o padrão **MVVM**, separando claramente:
   - Filtro por categoria, permitindo refinar os resultados por tipo de bebida.
   - Consultas específicas para relatórios, como estoque baixo, movimentações registradas e bebidas mais vendidas.
   - Essas buscas são executadas através de funções personalizadas no BebidaDao e MovimentacaoDao.
+
+---
+
+## Diagrama de Navegação Entre Telas
+
+O diagrama a seguir representa o fluxo de navegação do aplicativo:
+
+<img width="1101" height="537" alt="image" src="https://github.com/user-attachments/assets/aa97adbd-7034-46de-a0c3-e898a8eb9d50" />
 
 ---
 
